@@ -1,0 +1,18 @@
+.carousel-inner > .item > img.second-slide, .carousel-inner > .item > img.third-slide {
+  position: absolute;
+  left: 0;
+  height: auto;
+  width: auto;
+}
+
+.carousel-inner > .item > img.second-slide {
+  top: -300px;
+}
+
+.carousel-inner > .item > img.third-slide {
+  top: -400px;
+}
+
+.featurette-sub-header {
+  font-size: smaller;
+}
