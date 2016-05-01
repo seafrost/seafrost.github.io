@@ -5,10 +5,6 @@
   width: auto;
 }
 
-.carousel-inner > .item > img.second-slide {
-  top: -300px;
-}
-
 .carousel-inner > .item > img.third-slide {
   top: -400px;
 }
