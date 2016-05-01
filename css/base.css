@@ -1,10 +1,24 @@
-.carousel-inner > .item > img.second-slide, .carousel-inner > .item > img.third-slide {
-  position: absolute;
-  left: 0;
-  height: auto;
+
+.carousel-inner > .item > img.second-slide, .carousel-inner > .item > img {
+  display: block;
+  margin: auto;
+  height: 370px;
   width: auto;
+  max-height: 370px;
 }
 
+.navbar-default {
+  background-color: rgba(248, 248, 248, .5);
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: rgba(0, 0, 0, .5);
+}
+
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+  color: rgba(0, 0, 0, 1);
+}
+/*
 .carousel-inner > .item > img.second-slide {
   top: -300px;
 }
@@ -12,6 +26,7 @@
 .carousel-inner > .item > img.third-slide {
   top: -400px;
 }
+*/
 
 .featurette-sub-header {
   font-size: smaller;
