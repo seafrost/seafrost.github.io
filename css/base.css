@@ -1,33 +1,56 @@
-
-.carousel-inner > .item > img.second-slide, .carousel-inner > .item > img {
-  display: block;
-  margin: auto;
-  height: 370px;
-  width: auto;
-  max-height: 370px;
+body {
+  position: relative; 
+}
+.affix {
+  top:0;
+  width: 100%;
+  z-index: 9999 !important;
+}
+.navbar {
+  margin-bottom: 0px;
 }
 
-.navbar-default {
-  background-color: rgba(248, 248, 248, .5);
+.affix ~ .featurette {
+ position: relative;
+ top: 50px;
 }
-
-.navbar-default .navbar-nav > li > a {
-  color: rgba(0, 0, 0, .5);
-}
-
-.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
-  color: rgba(0, 0, 0, 1);
-}
-/*
-.carousel-inner > .item > img.second-slide {
-  top: -300px;
-}
-
-.carousel-inner > .item > img.third-slide {
-  top: -400px;
-}
-*/
 
 .featurette-sub-header {
   font-size: smaller;
 }
+
+#header_logo { width: 100%; }
+.affix { max-width: 1140px; }
+.navbar-wrapper {
+  margin-bottom: 40px;
+}
+.affix-buffer {
+    padding-top:50px
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: black;
+}
+
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+	color: #5386B3;
+}
+
+.navbar-default { border-color: black; }
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+	background: #f8f8f8; /* Old browsers */
+	background: -moz-linear-gradient(left, #f8f8f8 0%, #cbebff 15%, #a1dbff 50%, #cbebff 85%, #f8f8f8 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, #f8f8f8 0%,#cbebff 15%,#a1dbff 50%,#cbebff 85%,#f8f8f8 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, #f8f8f8 0%,#cbebff 15%,#a1dbff 50%,#cbebff 85%,#f8f8f8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8f8f8', endColorstr='#f8f8f8',GradientType=1 ); /* IE6-9 */
+}
+
+@media (min-width: 768px) {
+	.navbar-nav {
+		float: none;
+	}
+	#navbar ul{display:block;margin:0 0 0 147px;padding:0}
+	#navbar ul li{display:block;width:20%;margin:0;padding:0;text-align:center;float:left}
+}
+
+
