@@ -45,6 +45,8 @@ body {
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8f8f8', endColorstr='#f8f8f8',GradientType=1 ); /* IE6-9 */
 }
 
+.thumb { height: 250px; }
+
 @media (min-width: 768px) {
 	.navbar-nav {
 		float: none;
